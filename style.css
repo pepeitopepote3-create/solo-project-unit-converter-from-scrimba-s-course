@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: "Inter";
+    src: url(font.ttf) format("truetype");
+}
+
+#hero h1{
+    margin-bottom: 30px;
+    font-family:"Inter";
+}
+#hero{
+    padding-top: 15px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #5F3AF4;
+    padding-bottom: 35px;
+}
+input{
+    font-family: "Inter";
+    padding: 5px 10px;
+    border: 1px white solid;
+    border-radius: 3px;
+    font-size:xxx-large;
+    background-color: none;
+    background: none;
+    width: 75px;
+    height: 75px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 5px;
+    border-color: plum;
+}
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:25px;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    border:none;
+    color: #595959;
+    text-align: center;
+}
+
+#container{
+    background-color:#F0F0F0;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 90px;
+    border-radius: 10px;
+}
+.conversions{
+  background-color: white;
+  padding: 30px 0px;
+  width: 1280px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Inter";
+  color: #595959;
+  margin-top: 25px;
+
+}
+#firstConversion{
+    margin-top:35px;
+}
+body{
+    background-size: cover;
+    background-size: contain;
+}
